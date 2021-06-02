@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TestDemo</string>
+    <string-array name="Operators">
+        <item>+</item>
+        <item>-</item>
+        <item>*</item>
+        <item>/</item>
+    </string-array>
+</resources>
