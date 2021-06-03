@@ -29,7 +29,8 @@ class MainActivity4 : AppCompatActivity() {
             result.setText("It is $day today, you must feed with $food \n Change water : ${if (isChangeWaterNeeded) "is Needed" else "Not Needed"}")
         })
     }
-    fun shouldchangeWater(day: String, temp: Int, dirtReading: Int): Boolean {
+    fun shouldchangeWater(day: String, temp: Int, dirtReading: Int): Boolean
+    {
         return when {
             isHot(temp) -> true
             isDirt(dirtReading) -> true
