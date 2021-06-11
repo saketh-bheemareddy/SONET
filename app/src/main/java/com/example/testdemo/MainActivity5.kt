@@ -2,16 +2,12 @@ package com.example.testdemo
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import android.view.View
-import android.widget.Button
-import android.widget.EditText
-import android.widget.Toast
 
 class MainActivity5 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main5)
-
+/*
         var name = findViewById<EditText>(R.id.name)
         var gender = findViewById<EditText>(R.id.gender)
         var age = findViewById<EditText>(R.id.age)
@@ -26,6 +22,6 @@ class MainActivity5 : AppCompatActivity() {
             var result = if(person.age != 0)"${person.name}" else "person is minor"
 
             Toast.makeText(this,result,Toast.LENGTH_LONG).show()
-        })
+        })*/
     }
 }
