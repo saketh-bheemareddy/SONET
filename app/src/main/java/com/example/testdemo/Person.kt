@@ -10,7 +10,7 @@ class Person {
     var age:Int = 0 set(value) = if (value < 18) field = 0 else field = value
 
 }
-*/
+
 class Persons(var name:String, var weightLbs:Double){
     //Initialisation block
     init{
@@ -30,5 +30,12 @@ class Persons(var name:String, var weightLbs:Double){
     }
     fun calGoal(weighttolose:Double):Double{
         return weightLbs-weighttolose
+    }
+}*/
+
+open class Person (var name:String,var gender:String){
+    fun display()
+    {
+        println("$name and $gender")
     }
 }

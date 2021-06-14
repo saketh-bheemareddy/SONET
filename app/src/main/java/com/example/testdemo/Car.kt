@@ -1,6 +1,6 @@
 package com.example.testdemo
 
-class Car : Vehicle(){
+class Car : Vehicle{
     override var name:String = "Mercedes"
     override var mediumOfTravel:String = "Land"
     override var wheels:Int = 4
